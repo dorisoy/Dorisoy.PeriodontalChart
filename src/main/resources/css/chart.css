@@ -1,0 +1,122 @@
+.root{
+    -fx-first:#444444;
+    -fx-second:#5f5f5f;
+    -fx-third:#008bff;
+    -fx-third-sup: #005fbd;
+    -fx-third-selected:#47abff;
+    -fx-fourth:#ff4444;
+    -fx-fifth:lightyellow;
+    -fx-sixth:#339900;
+    -fx-yellow: #f8ff65;
+}
+/*for the dental chart
+*/
+
+
+Circle.red-circle1:hover,Circle.red-circle2:hover,Circle.red-circle3:hover,Circle.blue-circle1:hover,Circle.blue-circle2:hover,Circle.blue-circle3:hover{
+    /*
+-fx-effect: dropshadow(blurType, color, radius, spread, offsetX, offsetY)
+    you could use rgb(,,) or popularColorString 
+    */
+    -fx-effect: dropshadow(gaussian, -fx-second, 10, 0.75, 0.0, 0.0);
+}
+.circle-nerve-clicked{
+    -fx-fill:white;
+    -fx-stroke:black;
+    -fx-stroke-width:1;
+    -fx-scale-x:1.5;
+    -fx-scale-y:1.5;
+}
+.circle-nerve-unclicked{
+    -fx-stroke-width:1;
+    -fx-scale-x:1;
+    -fx-scale-y:1;
+}
+
+Line.line-nerve{
+    -fx-stroke:red;
+}
+
+GridPane .container-up-pic{
+    -fx-background-image:url("../images/dental_chart/background-up.png");  
+    /*-fx-background-color:#ff4444;*/
+
+}
+GridPane .container-down-pic{
+    -fx-background-image:url("../images/dental_chart/background-down.png");  
+}
+
+.fork1 , .fork2 , .fork3{
+    -fx-background-color: #cccccc;    
+}
+
+WeatherIconView{
+    -fx-fill:black;    
+}
+.fork-icon1{
+
+}
+.fork-icon2{
+    -fx-translate-x:-15;
+    -fx-translate-y:-6;
+}
+.fork-icon3{
+    -fx-translate-x:5;
+    -fx-translate-y:5;
+}
+.card{
+    -fx-border-color:-fx-second;
+    -fx-border-width:2;
+}
+#superior JFXButton:hover , #inferior JFXButton:hover{
+    -fx-background-color:-fx-second;
+}
+
+.labeled-grid-cell{
+    -fx-fill:white;
+    -fx-background-color:-fx-second;
+    -fx-max-width:Infinity;
+    -fx-max-height:Infinity;
+
+
+}
+
+GridPane .combo-box{
+    -fx-background-radius:0;
+    -fx-focus-color: -fx-second;
+    -fx-unfocus-color: transparent;
+}
+
+GridPane .combo-box .list-cell{
+    -fx-background-color:-fx-second;
+    -fx-max-width:38;
+    -fx-min-width:38;
+    -fx-text-fill:white;
+    -fx-padding: 4;
+}
+GridPane .combo-box .list-cell:hover{
+    -fx-background-color:white;
+    -fx-text-fill:-fx-second;
+}
+
+GridPane .combo-box .list-view{
+    -fx-background-color:-fx-second;
+    -fx-background-radius:0;
+}
+
+.grid-category{
+    -fx-background-color:-fx-second;
+    -fx-background-radius:0;
+    -fx-text-fill:white;
+    -fx-max-width:Infinity;
+    -fx-max-height:Infinity;
+}
+.text-field{
+    -fx-padding:1;
+    -fx-alignment:center;
+}
+.chart-control-button:hover{
+    -fx-background-color:-fx-second;
+    
+}
+
