@@ -41,10 +41,13 @@
 ## 屏幕
 
 <p align="center">
-  <img src="screenshots/1.jpg" height="250"/>
-  <img src="screenshots/2.jpg" height="250"/>
-  <img src="screenshots/3.png" height="250"/>
-  <img src="screenshots/4.png" height="250"/>
+  <img src="screenshots/1.jpg" />
+  
+  <img src="screenshots/2.jpg" />
+  
+  <img src="screenshots/3.png" />
+  
+  <img src="screenshots/4.png" />
 </p>
 
 
