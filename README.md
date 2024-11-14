@@ -1,4 +1,4 @@
-# Dorisoy.PeriodontalChart
+# Dorisoy.PeriodontalChart.JavaFX
 
 该牙周检查图表应用程序是一款专门用于牙科手术和牙周检查的软件工具。它提供了一个直观且功能丰富的界面，使得牙科医生能够轻松地进行牙齿数据的记录、分析和管理。
 
